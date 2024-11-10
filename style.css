@@ -1,0 +1,1981 @@
+*{
+    margin :0;
+    padding :0;
+    
+}
+.to-top a{
+background:linear-gradient(#FF00FF,#FFA500);
+    font-size:20px;
+    
+    width: 40px;
+    height: 40px;
+    color:#fff;
+    display:inline-block;
+    position: fixed;
+    bottom :10px;
+    right :10px;
+    border-radius:50%;
+    display :none;
+}
+.to-top a i{
+    margin-top:8px;
+    margin-left:9px;
+}
+.header-area{
+    width :100%;
+    height :50px; background:linear-gradient(#FF00FF,#FFA500);
+    position :relatie;
+    padding-top:5px;
+}
+.header-area a {
+    font-size:30px;
+    color: #00008B;
+    position : absolute ;
+    top:7px;
+    right :10px;
+    padding :5px, 5px; 
+    cursor:pointer;
+}
+.logo{
+    width :45px;
+    height :45px;
+    margin-left:10%;
+    display : block;
+    cursor:pointer;
+    
+}
+
+.second-menu ul{
+    width:90%;
+    max-height :300px;
+    text-aling: center;
+    margin :auto;
+    display : block;
+    list-style:none;
+background:linear-gradient(#FF00FF,#FFA500);
+}
+.second-menu ul li a{
+    text-decoration:none;
+    margin-left:10%;
+    color:#fff;
+    padding :7px;
+    display : block;
+}
+.second-menu ul li a{
+    color:#151B54;
+    text:bold;
+}
+.second-menu ul li{
+    display :none;
+}
+
+.fore-menu ul{
+    width:50%;
+    max-height :200px;
+    text-aling: center;
+    margin :auto;
+    display : block;
+    list-style:none;
+background:linear-gradient(#FF00FF,#FFA500);
+}
+.fore-menu ul li a{
+    text-decoration:none;
+    margin-left:10%;
+    color:#fff;
+    padding :7px;
+    display : block;
+}
+.fore-menu ul li a{
+    color:#151B54;
+    text:bold;
+}
+.fore-menu ul{
+    display:none;
+}
+.fore-menu ul li a:hover{
+    background: #0000FF;
+    padding :6px;
+    color:#fff;
+}
+.btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 5px;
+  font-size: 5px;
+  border: none;
+  outline: none;
+}
+.third-menu{
+ 
+}
+
+.mySlides-fade{
+    margin :0px;
+    padding :0px;
+}
+.second-menu ul li a:hover{
+    background: #0000FF;
+    padding :6px;
+    color:#fff;
+}
+.text{
+    background: #00008B;
+    background-size: cover;
+    padding :25px;
+    margin-top:0px;
+    
+}
+.text i,p{
+    color:#fff;
+    padding :8px;
+}
+.text p{
+    font-size:18px;
+}
+.text a{
+    font-size:13px;
+}
+
+.text button{
+    background: #FFA500;
+    padding :5px;
+    border: 1px solid #FFA500;
+    box-shadow:2px 2px 2px #800080;
+    border-radius:5px;
+}
+
+    /* fast-postarea */
+
+.post1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 0px;
+}
+
+.fast-area{
+    background: #E5E4E2;
+}
+.fast-area i{
+    color: black;
+}
+.my-post{
+    width: 90%;
+    margin : auto;
+    height: 450px;
+}
+
+.fast-post{
+    background: url(images/post1.jpg);
+    width: 80%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+.fast-post:hover{
+    transform: scale(1.1);
+}
+h2{
+    padding :20px;
+    font-size:30px;
+}
+.fast-post button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B;
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+.my-post h3{
+    padding :25px;
+    height: 200;
+    width: 80%;
+    text-aling: center;
+    margin :auto;
+    margin-top:200px;
+    pont-size:22px;
+    color:#00008B;
+    
+}
+.my-post a{
+    text-decoration:none;
+}
+.post-title{
+    background: #FFFAFA;
+    width: 85%;
+    margin :auto;
+    text-aling: center;  
+    border-radius:7px;
+}
+.iconf i{
+    margin-left:30px;
+    margin-bottom:20px;
+}
+
+
+.second-post{
+    background: url(images/post2.jpg);
+    width: 80%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+.second-post:hover{
+    transform: scale(1.1);
+}
+.second-post button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B; 
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+
+.third-post{
+    background: url(images/post3.jpg);
+    width: 45%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+.third-post:hover{
+    transform: scale(1.1);
+}
+.third-post button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B; 
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+
+/* second-area */
+/* Top Stories */
+
+.second-area{
+    background:#C9C0BB;
+    padding-bottom:60px;
+}
+.my-2post{
+    width: 85%;
+    margin : auto;
+    height: 470px;
+}
+.post2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 30px;
+}
+.fast2-post{
+    background: url(images/post4.jpg);
+    height :400px;
+    margin : auto;
+    background-size: cover;
+    width: 80%;
+}
+.fast2-post:hover{
+    transform: scale(0.9);
+}
+.fast2-post button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B; 
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+
+.my-2post a{
+    text-decoration:none;
+    
+}
+.icon i{
+    margin-left:10px;
+    margin-bottom:10px;
+    color:#fff;
+    margin-top:15px;
+}
+.header-title{
+    width: 85%;
+    margin :auto;
+    text-aling: center;  
+    border-radius:7px;
+}
+.my-2post h3{
+    padding :12px;
+    height: 200;
+    width: 90%;
+    text-aling: center;
+    margin :auto;
+    margin-top:165px;
+    color:#fff;
+    
+}
+.header-title h3{
+    font-size:18px;
+}
+
+
+.second2-post{
+    background: url(images/post5.jpg);
+    height :400px;
+    margin : auto;
+    background-size: cover;
+    width: 80%;
+}
+.second2-post:hover{
+    transform: scale(0.9);
+}
+.second2-post button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B;
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+.my-2post a{
+    text-decoration:none;
+    
+}
+.icon i{
+    margin-left:10px;
+    margin-bottom:10px;
+    color:#fff;
+    margin-top:15px;
+}
+.header-title{
+    width: 85%;
+    margin :auto;
+    text-aling: center;  
+    border-radius:7px;
+}
+.my-2post h3{
+    padding :12px;
+    height: 200;
+    width: 90%;
+    text-aling: center;
+    margin :auto;
+    margin-top:210px;
+    color:#fff;
+    
+}
+.header-title h3{
+    font-size:18px;
+}
+
+
+.post3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.fst-post{
+    background: url(images/stories1.jpg);
+    height :200px;
+    margin : auto;
+    background-size: cover;
+    width: 80%;
+}
+.fst-post:hover{
+    transform: scale(1.1);
+}
+.head-title{
+    width: 40%;
+    height :360px;
+    margin :auto;
+    text-aling: center;
+    background: #fff;
+    padding-top:22px;
+    border-radius:6px;
+    margin-bottom:20px;
+}
+.head-title a{
+    width: 80%;
+    padding :25px;
+    display : black;
+    text-decoration:none;
+    
+}
+.head-title a h3{
+    color: #00008B;
+    padding :25px;
+}
+.snd-post{
+    background: url(images/stories2.jpg);
+    height :200px;
+    margin : auto;
+    background-size: cover;
+    width: 80%;
+}
+.snd-post:hover{
+    transform: scale(1.1);
+}
+.trd-post{
+    background: url(images/stories3.jpg);
+    width: 80%;
+    height :200px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.trd-post:hover{
+    transform: scale(1.1);
+}
+
+/* Featured Videos */
+
+.third-area{
+    background: #0000FF;
+    padding-bottom:40px;
+    padding-top:20px;
+}
+h6{
+    font-size:25px;
+    color:#fff;
+    padding :40px;
+}
+.tfast-post{
+    background: url(images/tfast.jpg);
+    width: 85%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.tfast-post:hover{
+    transform: scale(1.1);
+}
+.tfast-post button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B;
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+.my-3post h3{
+    padding :12px;
+    height: 300;
+    width: 90%;
+    text-aling: center;
+    margin :auto;
+    margin-top:30px;
+    color:#fff;
+    font-size:20px;
+}
+.my-3post a{
+    text-decoration:none;
+    color:#fff;
+}
+.my-3post{
+    padding-bottom:40px;
+}
+.tsecond-post{
+    background: url(images/tsecond.jpg);
+    width: 85%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.tsecond-post:hover{
+    transform: scale(1.1);
+}
+.tsecond-post button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B;
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+
+.tthirde-post{
+    background: url(images/tthirde.jpg);
+    width: 85%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.tthirde-post:hover{
+    transform: scale(1.1);
+}
+.tthirde-post button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B;
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+
+/* Top Posts */
+
+.fore-area,
+.middle-area
+ h2{
+    margin-bottom: 20px;
+}
+.fore-area{
+    background: #E5E4E2;
+}
+
+.ffst-post{
+    background: url(images/ffast.jpg);
+    width: 80%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+
+
+
+.fhead-title button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B;
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+}
+.fhead-title{
+    padding-bottom:50px;
+}
+.fore-area a{
+   text-decoration:none;
+    
+}
+.photo{
+    background: #fff;
+    width: 80%;
+    max-height: 260px;
+    margin :auto;
+    
+}
+.photo h3{
+    padding :20px;
+    font-size:22px;
+}
+.photo i{
+    padding-bottom:40px;
+    margin-left:10%;
+}
+.fore-area{
+   background: #E6E6FA;
+}
+.paragraph{
+    color: black;
+    padding :0px 20px 20px 20px;
+}
+
+.fsecond-post{
+    background: url(images/fsecond.jpg);
+    width: 80%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+
+/*  .fsecond-post:hover{
+    transform: scale(1.1);
+}*/
+.fthird-post{
+    background: url(images/fthirde.jpg);
+    width: 80%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+.ffore-post{
+    background: url(images/ffore.jpg);
+    width: 80%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+.ffive-post{
+    background: url(images/fitness1.jpg);
+    width: 80%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+.fsix-post{
+    background: url(images/fsix.jpg);
+    width: 80%;
+    height :300px;
+    margin : auto;
+    background-size: cover;
+}
+.phade-area{
+    background: #E0B0FF;
+    padding-top:30px;
+    padding-bottom:50px;
+}
+
+/*  Best Stories*/
+
+.phade-area,
+.hh2 h2{
+    margin-bottom: 20px;
+}
+
+.pfast-post{
+    background: url(images/pfast.jpg);
+    width: 80%;
+    height :200px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.pfast-post:hover{
+    transform: scale(1.1);
+}
+.psecond-post{
+    background: url(images/stories1.jpg);
+    width: 80%;
+    height :200px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.psecond-post:hover{
+    transform: scale(1.1);
+}
+.pthird-post{
+    background: url(images/stories2.jpg);
+    width: 80%;
+    height :200px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.pthird-post:hover{
+    transform: scale(1.1);
+}
+.pfore-post{
+    background: url(images/stories3.jpg);
+    width: 80%;
+    height :200px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.pfore-post:hover{
+    transform: scale(1.1)
+ }
+    
+    /* Recent Posts */
+
+.ha-post{
+    background: url(images/tsecond.jpg);
+    width: 80%;
+    height :400px;
+    margin : auto;
+    background-size: cover;
+}
+.ha-post:hover{
+    transform: scale(1.1)
+ }
+.ha-head-title button{
+    padding:7px;
+    margin :20px 0px 0px 20px;
+    background: #00008B;
+    color:#FFFFFF;
+    border:1px solid #00008B;
+    border-radius:3px;
+    margin-left:10%;
+}
+.middle-area a{
+    width: 80%;
+    font-size:20px;
+    
+    text-decoration:none;
+}
+.middle-area h3{
+    padding :15px;
+    margin : auto;
+    width: 80%;
+}
+.middle-text{
+    color: black;
+    width: 80%;
+    margin :auto;
+    padding :0px 10px 20px 10px;
+}
+.ha-head-title i{
+     margin-left:11%;
+     margin-bottom:50px;
+}
+
+.ha-2post{
+    background: url(images/life.jpg);
+    width: 80%;
+    height :400px;
+    margin : auto;
+    background-size: cover;
+}
+.ha-2post:hover{
+    transform: scale(1.1)
+ }
+ .ha-3post{
+    background: url(images/game.jpg);
+    width: 80%;
+    height :400px;
+    margin : auto;
+    background-size: cover;
+}
+.ha-3post:hover{
+    transform: scale(1.1)
+ }
+ .ha-4post{
+    background: url(images/ad-banner.png);
+    width: 60%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.ha-5post{
+    background: url(images/most-loved.png);
+    width: 80%;
+    height :350px;
+    margin : auto;
+    background-size: cover;
+    
+}
+h5{
+    padding :15px;
+    margin : auto;
+    width: 80%;
+    font-size:22px;
+    margin-bottom:50px;
+}
+.links{
+    width: 84%;
+    height: 240px;
+    margin :0px;
+    padding :0px;
+    margin :auto;
+    padding-bottom:40px;
+}
+.links .all_links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fast-link a{
+    width: 84%;
+   display : block;
+   text-decoration:none;
+   float :left;
+   margin:5px;
+   padding :5px;
+   color: black;
+}
+.fast-link a:hover{
+    color:red;
+}
+.second-link a{
+    width: 84%;
+    display : block;
+   text-decoration:none;
+   float :left;
+   margin:5px;
+   padding :5px;
+   color: black;
+}
+.second-link a:hover{
+    color:red;
+}
+.links h4{
+    font-size:20px;
+    margin :20px 5px;
+}
+.hlinks{
+    width: 84%;
+    height: 30px;
+    margin :0px;
+    padding :0px;
+    margin :auto;
+    padding-bottom:40px;
+}
+.hlinks h4{
+    font-size:20px;
+    margin :20px 5px;
+}
+.galaxy1,
+.galaxy2{
+    width: 73%;
+    margin: auto;
+    margin-bottom:40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galaxy1 img,
+.galaxy2 img{
+    width: 400px;
+    margin: 0px 20px 0px 20px;
+}
+
+.futter-area{
+ background:linear-gradient(#FF00FF,#FFA500);
+ height :100px;
+ }
+.futter-area p{
+   width: 80%;
+   padding :20px 0 0 0;
+   margin :auto;
+   text-align: center;
+}
+.futter-area i{
+    font-size:30px;
+    padding :5px;
+    margin :5px;
+}
+.futter-icon{
+    width :70%;
+    margin :auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.futter-icon a{
+    text-decoration:none;
+}
+
+
+/* lifestyle.html */
+
+.slide-area{
+    background: url(images/back-slider.jpg);
+    background-size: cover;
+    height :230px;
+    margin-bottom:70px;
+}
+.slide-area h2{
+    color:#fff;
+    font-size:25px;
+    padding:40px 20px 20px 50px;
+}
+.slide-area a span{
+    color:#fff;
+    width: 80%;
+    margin-left:5px;
+}
+.slide-area a{
+    text-decoration:none;
+    margin-left:15%;
+}
+
+
+
+
+
+.life-image{
+    background: url(images/life.jpg);
+    width: 80%;
+    height :350px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.life-area a{
+    text-decoration:none;
+    
+}
+.life-area h3{
+    width: 80%;
+    margin :auto;
+    padding :20px;
+}
+.life-area p{
+    color: black;
+    width: 80%;
+    margin :auto;
+    padding :0px 20px 20px 20px;
+}
+.i-icon{
+    width: 80%;
+    margin :auto;
+    padding :15px;
+    
+}
+.i-icon i{
+    padding:3px;
+    margin-bottom:10px;
+}
+.life-area hr{
+    width :70%;
+    margin :auto;
+    
+}
+.life-hader{
+    background: #FFFFE0;
+    width: 79.5%;
+    margin :auto;
+    border :1px solid #DADBDD;
+}
+.life-area{
+    margin-bottom:40px;
+}
+.life-images{
+    background: url(images/tfast.jpg);
+    width: 80%;
+    height :350px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.futter-icons{
+    width: 80%;
+    height: 150px;
+    margin : auto;
+    background: #FFFFE0;
+    border :1px solid #DADBDD;
+    margin-bottom:50px;
+}
+.futter-icons a{
+    text-decoration:none;
+    margin-left:7%;
+}
+.futter-icons i{
+    font-size:30px;
+    padding :5px;
+    margin :5px;
+}
+.futter-icons h3{
+    padding :25px;
+    font-size:20px;
+}
+
+
+
+.number{
+    tex-aling: center;
+    color:red;
+    width: 40px;
+    display: inline-block;
+    background: blue;
+    margin-left:20px;
+}
+
+.Categoriess{
+    width: 80%;
+    height: 460px;
+    margin :auto;
+    margin-bottom:50px;
+    background:#FFFFE0;
+    border :1px solid #DADBDD;
+}
+.fan{
+   text-decoration:none;
+   width: 70%;
+   margin:5px;
+   padding :5px;
+   color: black;
+   float:left;
+   margin-left:15px;
+}
+.fast-links a{
+    font-size:14px;
+}
+.fast-links a:hover{
+    color:red;
+    padding-left:10px;
+}
+.an{
+   text-decoration:none;
+   width: 10%;
+   margin:5px;
+   padding :5px;
+   color: black;
+   float:left;
+}
+.Categoriess h4{
+    font-size:20px;
+    padding :20px;
+}
+
+
+.Recent_Posts{
+    width: 80%;
+    margin:auto;
+    min-height: 300px;
+    background:#FFFFE0;
+    border :1px solid #DADBDD;
+    margin-bottom:50px;
+}
+.Recent_Posts p{
+    color:black;
+    padding :15px;
+}
+.Recent_Posts h3{
+    font-size:21px;
+    padding :20px;
+}
+
+.Recent_Posts hr{
+    width: 77%;
+    margin :auto;
+}
+.ha-4post{
+    margin-bottom:50px;
+}
+.links h4{
+    padding-top:50px;
+}
+.hlinks h4{
+    margin-top:70px;
+}
+
+
+/* TRAVEL */
+
+.travel1-image{
+    background: url(images/travel1.jpg);
+    width: 80%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.travel1-area a{
+    text-decoration:none;
+    
+}
+.trave-image{
+    background: url(images/travel2.jpg);
+    width: 80%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.trave-area a{
+    text-decoration:none;
+    
+}
+
+.trav-image{
+    background: url(images/travel2.jpg);
+    width: 80%;
+    height : 450px;
+    margin : auto;
+    background-size: cover;
+}
+.trav-area a{
+    text-decoration:none;
+    
+}
+
+/* FITNESS */
+
+.fitness1-image{
+    background: url(images/fitness1.jpg);
+    width: 80%;
+    height :350px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.fitness1-area a{
+    text-decoration:none;
+    
+}
+.fitness-image{
+    background: url(images/fitness.jpg);
+    width: 80%;
+    height :350px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.fitness-area a{
+    text-decoration:none;
+    
+}
+
+/* gallery.html */
+
+.gallery{
+    width: 120px;
+    height: 120px;
+    padding-top:30px;
+    padding-left:17px;
+    float :left;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    
+}
+.gallery-area{
+    width: 85%;
+    max-height: 500px;
+    margin :auto;
+    background: red;
+    content:'';
+    display :block;
+    clear: both;
+}
+.gallery-area .gallery{
+    width: 42%;
+    display : inline;
+    margin :auto;
+}
+
+.total{
+    background: #fff;
+}
+
+
+
+.gallery-menu{
+    width: 80%;
+    height: 1050px;
+    margin :auto;
+   
+}
+.gallery-menu ul li a{
+    text-decoration:none;  
+    color : black;
+}
+.gallery-menu ul{
+    list-style:none;
+    content:'';
+    display :block;
+    clear: both;
+}
+.gallery-menu ul li{
+    float :left;
+    padding :4px 8px;
+    font-size:14px;
+    font-weight: bold;
+    
+}
+.gallery-menu ul li a:hover{
+    color :#fff;
+    padding:4px;
+    background:#0000FF;
+}
+
+.gallery-area{
+    background: red;
+}
+
+.gallery a{
+    text-decoration:none;
+}
+
+.pad{
+    margin-bottom:30px;
+}
+
+/* teans.html */
+
+.teams-area{
+    width: 85%;
+    margin :auto;
+}
+.teams1-image{
+    background: url(images/teams1.jpg);
+    width: 90%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+}
+.teams-area a{
+    text-decoration:none;
+}
+.teams-area h3{
+    text-aling: center;
+    padding:15px;
+    margin-left:19%;
+    color: black;
+    font-size:25px;
+    margin-bottom:0px;
+    width: 80%;
+}
+.teams-area h3:hover{
+    color:red;
+}
+.teams-area p{
+    color: red;
+    font-size:18px;
+    margin-left:30%;
+    margin-bottom:20px;
+    font-weight: bold;
+
+}
+.fa-icon{
+    width: 40%;
+    height :100px;
+    margin :auto;
+}
+.fa-icon a{
+    text-decoration:none;
+}
+.fa-icon i{
+    font-size:30px;
+    padding :5px;
+}
+.teams2-image{
+    background: url(images/teams2.jpg);
+    width: 90%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+}
+.teams3-image{
+    background: url(images/teams3.jpg);
+    width: 90%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+}
+.teams4-image{
+    background: url(images/teams4.jpg);
+    width: 90%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+}
+.teams5-image{
+    background: url(images/teams5.jpg);
+    width: 90%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+}
+.teams6-image{
+    background: url(images/teams6.jpg);
+    width: 90%;
+    height :450px;
+    margin : auto;
+    background-size: cover;
+}
+.teams7-image{
+    background: url(images/teams7.jpg);
+    width: 90%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+}
+.teams8-image{
+    background: url(images/teams8.jpg);
+    width: 90%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+}
+.last h3{
+    margin-left:5%;
+    width:90%;
+}
+
+/* education.html */
+.education1-image{
+    background: url(images/div6.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.education1-area a{
+    text-decoration:none;
+    
+}
+
+.education2-image{
+    background: url(images/post5.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.education2-area a{
+    text-decoration:none;
+    
+}
+
+.education3-image{
+    background: url(images/education.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.education3-area a{
+    text-decoration:none;
+    
+}
+
+/* fashion.html */
+.fashion1-image{
+    background: url(images/div3.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.fashion1-area a{
+    text-decoration:none;
+    
+}
+.fashion2-image{
+    background: url(images/stories2.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.fashion2-area a{
+    text-decoration:none;
+    
+}
+.fashion3-image{
+    background: url(images/fashion.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.fashion3-area a{
+    text-decoration:none;
+    
+}
+
+/* food.html */
+
+.food1-image{
+    background: url(images/div3.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.food1-area a{
+    text-decoration:none;
+    
+}
+
+.food2-image{
+    background: url(images/div11.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.food2-area a{
+    text-decoration:none;
+    
+}
+/* gaming.html */
+.game1-image{
+    background: url(images/game.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.game1-area a{
+    text-decoration:none;
+    
+}
+.game2-image{
+    background: url(images/fsix.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.game2-area a{
+    text-decoration:none;
+    
+}
+/* history.html */
+
+.history1-image{
+    background: url(images/tthirde.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.history1-area a{
+    text-decoration:none;
+    
+}
+.history2-image{
+    background: url(images/history.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.history2-area a{
+    text-decoration:none;
+    
+}
+/* music.html */
+
+.music1-image{
+    background: url(images/div12.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.music1-area a{
+    text-decoration:none;
+    
+}
+.music2-image{
+    background: url(images/div10.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.music2-area a{
+    text-decoration:none;
+    
+}
+.music3-image{
+    background: url(images/mc-5-768x586.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.music3-area a{
+    text-decoration:none;
+    
+}
+/* topstories.html */
+.top1-image{
+    background: url(images/top.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.top1-area a{
+    text-decoration:none;
+    
+}
+.top2-image{
+    background: url(images/stories1.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.top2-area a{
+    text-decoration:none;
+    
+}
+.top3-image{
+    background: url(images/stories2.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.top3-area a{
+    text-decoration:none;
+    
+}
+.top4-image{
+    background: url(images/stories3.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.top4-area a{
+    text-decoration:none;
+    
+}
+.top5-image{
+    background: url(images/post1.jpg);
+    width: 80%;
+    height :250px;
+    margin : auto;
+    background-size: cover;
+    
+}
+.top5-area a{
+    text-decoration:none;
+    
+}
+.Recent_Posts a{
+    text-decoration:none;
+}
+.Recent_Posts a:hover p{
+    color:red;
+}
+/* contact.html */
+
+.contact_new {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    width: 40%;
+    height: 210px;
+    margin :auto;
+    background:#DADBDD;
+    margin-bottom:50px;
+    border-radius:5px;
+    position:relative;
+}
+.email-icon{
+    width: 70px;
+    height: 70px;
+    margin : auto;
+    background: #E41B17;
+    display:block;
+    position: absolute;
+    top:15px;
+    left:43%;
+    border-radius:50%;
+}
+.email-icon i{
+    font-size:35px;
+    margin-left:17px;
+    margin-top:17px;
+    display: block;
+    color:#fff;
+}
+.em-ph{
+    width: 90px;
+    height: 90px;
+    margin :auto;
+    background: #DADBDD;
+}
+.email h3{
+    width: 130px;
+    height: 30px;
+    padding-top:15px;
+    margin:auto;
+    text-align: center;
+}
+.email p{
+    color: black;
+    text-align: center;
+}
+
+/* contact */
+
+#register-area{
+   background-color:#E5E4E2; 
+   width :85%;
+   margin :auto;
+   border-width: 2px;
+   border-color:red;
+   border-radius:5px;
+   margin-bottom:50px;
+}
+.register input{
+   width:85%;
+   display : block ;
+   margin:auto;
+   padding :10px;
+   margin-top : 10px;
+   border-width: 2px;
+   border-color:#F433FF;
+   border-radius:8px;
+}
+.register{
+    margin :10px 10px;
+    
+}
+.register p input {
+    width:130px;
+    margin-top:10px;
+    background: #4B0150;
+    font-size:15px;
+    margin-bottom:10px;
+    display: block;
+    margin: auto;
+    color:#FFF;
+}
+.comment input{
+    height: 250px;
+    padding-top:0px;
+}
+.register textarea{
+    width:85%;
+    margin :auto;
+    display: block;
+    padding :10px;
+   margin-top : 10px;
+   border-width: 2px;
+   border-color:#F433FF;
+   border-radius:8px;
+}
+
+/* faq.html */
+
+.faq-area{
+    width: 76%;
+    max-height: 0px;
+    margin: auto;
+    background: #FFFAF0;
+    padding-top: 3%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+}
+.faq-area:hover span{
+    color:red;
+}
+.faq-area:hover i{
+    color:red;
+}
+.faq-area span{
+    width:50%;
+    display : inline;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+    padding-left: 3%;
+}
+.faq-area i{
+    font-size:20px;
+}
+.faq{
+   width: 70%;
+    max-height:400px ;
+    margin :auto;
+    margin-bottom:70px;
+    background: #FFFAF0;
+    text-aling: center;
+    padding :5%;
+    border-radius:0px 0px 5px 5px;
+}
+.faq p{
+    color: black;
+    display : none;
+}
+
+.gfaq-area{
+    width: 76%;
+    max-height: 0px;
+    margin: auto;
+    background: #FFFAF0;
+    padding-top: 3%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+}
+.gfaq-area:hover span{
+    color:red;
+}
+.gfaq-area:hover i{
+    color:red;
+}
+.gfaq-area span{
+    width:50%;
+    display : inline;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+.gfaq-area i{
+    font-size:20px;
+}
+.gfaq{
+   width: 70%;
+    max-height:400px ;
+    margin :auto;
+    margin-bottom:70px;
+    background: #FFFAF0;
+    text-aling: center;
+    padding :5%;
+    border-radius:0px 0px 5px 5px;
+}
+.gfaq p{
+    color: black;
+    display : none;
+}
+
+
+
+.hfaq-area{
+    width: 76%;
+    max-height: 0px;
+    margin: auto;
+    background: #FFFAF0;
+    padding-top: 3%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+}
+.hfaq-area:hover span{
+    color:red;
+}
+.hfaq-area:hover i{
+    color:red;
+}
+.hfaq-area span{
+    width:50%;
+    display : inline;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+.hfaq-area i{
+    font-size:20px;
+}
+.hfaq{
+   width: 70%;
+    max-height:400px ;
+    margin :auto;
+    margin-bottom:70px;
+    background: #FFFAF0;
+    text-aling: center;
+    padding :5%;
+    border-radius:0px 0px 5px 5px;
+}
+.hfaq p{
+    color: black;
+    display : none;
+}
+
+
+.jfaq-area{
+    width: 76%;
+    max-height: 0px;
+    margin: auto;
+    background: #FFFAF0;
+    padding-top: 3%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+}
+.jfaq-area:hover span{
+    color:red;
+}
+.jfaq-area:hover i{
+    color:red;
+}
+.jfaq-area span{
+    width:50%;
+    display : inline;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+.jfaq-area i{
+    font-size:20px;
+}
+.jfaq{
+   width: 70%;
+    max-height:400px ;
+    margin :auto;
+    margin-bottom:70px;
+    background: #FFFAF0;
+    text-aling: center;
+    padding :5%;
+    border-radius:0px 0px 5px 5px;
+}
+.jfaq p{
+    color: black;
+    display : none;
+}
+
+
+.kfaq-area{
+    width: 76%;
+    max-height: 0px;
+    margin: auto;
+    background: #FFFAF0;
+    padding-top: 3%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+}
+.kfaq-area:hover span{
+    color:red;
+}
+.kfaq-area:hover i{
+    color:red;
+}
+.kfaq-area span{
+    width:50%;
+    display : inline;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+.kfaq-area i{
+    font-size:20px;
+}
+.kfaq{
+   width: 70%;
+    max-height:400px ;
+    margin :auto;
+    margin-bottom:70px;
+    background: #FFFAF0;
+    text-aling: center;
+    padding :5%;
+    border-radius:0px 0px 5px 5px;
+}
+.kfaq p{
+    color: black;
+    display : none;
+}
+
+
+.lfaq-area{
+    width: 76%;
+    max-height: 0px;
+    margin: auto;
+    background: #FFFAF0;
+    padding-top: 3%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+}
+.lfaq-area:hover span{
+    color:red;
+}
+.lfaq-area:hover i{
+    color:red;
+}
+.lfaq-area span{
+    width:50%;
+    display : inline;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+.lfaq-area i{
+    font-size:20px;
+}
+.lfaq{
+   width: 70%;
+    max-height:400px ;
+    margin :auto;
+    margin-bottom:70px;
+    background: #FFFAF0;
+    text-aling: center;
+    padding :5%;
+    border-radius:0px 0px 5px 5px;
+}
+.lfaq p{
+    color: black;
+    display : none;
+}
+
+.mfaq-area{
+    width: 76%;
+    max-height: 0px;
+    margin: auto;
+    background: #FFFAF0;
+    padding-top: 3%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+}
+.mfaq-area:hover span{
+    color:red;
+}
+.mfaq-area:hover i{
+    color:red;
+}
+.mfaq-area span{
+    width:50%;
+    display : inline;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+.mfaq-area i{
+    font-size:20px;
+}
+.mfaq{
+   width: 70%;
+    max-height:400px ;
+    margin :auto;
+    margin-bottom:70px;
+    background: #FFFAF0;
+    text-aling: center;
+    padding :5%;
+   border-radius:0px 0px 5px 5px;
+}
+.mfaq p{
+    color: black;
+    display : none;
+}
+
+
+.nfaq-area{
+    width: 76%;
+    max-height: 0px;
+    margin: auto;
+    background: #FFFAF0;
+    padding-top: 3%;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 40px;
+    
+}
+.nfaq-area:hover span{
+    color:red;
+}
+.nfaq-area:hover i{
+    color:red;
+}
+.nfaq-area span{
+    width:50%;
+    display : inline;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+.nfaq-area i{
+    font-size:20px;
+}
+.nfaq{
+   width: 70%;
+    max-height:400px ;
+    margin :auto;
+    margin-bottom:70px;
+    background: #FFFAF0;
+    text-aling: center;
+    padding :5%;
+    border-radius:0px 0px 5px 5px;
+}
+.nfaq p{
+    color: black;
+    display : none;
+}
+

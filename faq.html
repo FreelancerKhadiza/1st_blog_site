@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+     <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+     <div class ="to-top">
+         <a href="#"><i class="fa fa-chevron-up" ></i></a>
+         
+     </div> 
+         
+         <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){ 
+        
+        $('.to-top a').click(function(){
+         $('html, body').animate({'scrollTop':0},1000);
+         
+      return false;  
+          
+        })
+        
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 600){
+            $('.to-top a').fadeIn(1000);
+        }else{
+            $('.to-top a').fadeOut(1000);
+        };
+    
+    });   
+        
+         
+     })(jQuery)    
+      
+  </script>
+  
+         
+    <header class="header-area">
+        <img src="images/logo.png" alt="logo" class="logo">
+        
+     <nav class="fast-menu">   
+        <ul>
+            <li><a href="#"><i class="fa fa-bars"></i></a>
+            </li>   
+        </ul>
+     </nav> 
+   </header>
+   
+    <nav class="second-menu">  
+        <ul>
+           <li><a href="index.html">HOME</a></li>
+           <li><a href="lifestyle.html">LIFE STYLE</a></li>
+           <li><a href="travel.html">TRAVEL</a></li>
+                    
+   <li class="third-menu"><a href="#">PAGES <i class="fa fa-caret-down"></i></a>
+         
+     <div class ="fore-menu">
+      
+   <ul>
+     <li><a href="gallery.html">OUR GALLERY</a></li>
+     
+     <li><a href="teams.html">OUR TEAMS</a></li>
+     <li><a href="faq.html">OUR FAQ</a></li>
+   </ul>
+      
+ </div>    
+           
+  </li>
+           <li><a href="fitness.html">FITNESS</a></li>
+           <li><a href="contact.html">CONTACT US</a></li>
+        </ul>  
+    </nav>    
+  
+  
+  
+    <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+        $(".third-menu a").click(function(){
+               
+       $(".fore-menu ul").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+      
+        
+      
+   <script type="text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+        $(".fast-menu a").click(function(){
+               
+        $(".second-menu ul li").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+   </script>
+   <div class ="slide-area">
+       
+       <h2>Category: FAQ</h2>
+       <a href="index.html">home </a><span>| Category: Faq</span>
+       
+       </div>
+       
+       
+   
+   <div class ="faq-area">
+ 
+   <i class="fa fa-plus" aria-hidden="true"></i>
+  <span> Breaking The Rules Using SQLite To Demo Web?</span>
+  </div>
+  
+  <div class="faq">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+      
+  </div>
+  
+  
+   <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+      $(".faq-area span").click(function(){
+               
+       $(".faq p").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+  
+  
+  
+  <div class ="gfaq-area">
+ 
+   <i class="fa fa-plus" aria-hidden="true"></i>
+  <span> Monthly Web Development Update Pragmatic Releasing?</span>
+  </div>
+  
+  <div class="gfaq">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+      
+  </div>
+  
+  
+  
+   <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+      $(".gfaq-area span").click(function(){
+               
+       $(".gfaq p").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+  
+  
+  <div class ="hfaq-area">
+ 
+   <i class="fa fa-plus" aria-hidden="true"></i>
+  <span> How To Use Underlined Text To Improve User Experience</span>
+  </div>
+  
+  <div class="hfaq">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+      
+  </div>
+  
+  
+   <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+      $(".hfaq-area span").click(function(){
+               
+       $(".hfaq p").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+  
+  
+  <div class ="jfaq-area">
+ 
+   <i class="fa fa-plus" aria-hidden="true"></i>
+  <span> Understanding CSS Layout And The Block Formatting</span>
+  </div>
+  
+  <div class="jfaq">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+      
+  </div>
+  
+  
+  <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+      $(".jfaq-area span").click(function(){
+               
+       $(".jfaq p").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+  
+  
+  <div class ="kfaq-area">
+ 
+   <i class="fa fa-plus" aria-hidden="true"></i>
+  <span> Breaking The Rules Using SQLite To Demo Web?</span>
+  </div>
+  
+  <div class="kfaq">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+      
+  </div>
+  
+  
+  
+  <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+      $(".kfaq-area span").click(function(){
+               
+       $(".kfaq p").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+  
+  
+  <div class ="lfaq-area">
+ 
+   <i class="fa fa-plus" aria-hidden="true"></i>
+  <span> Monthly Web Development Update Pragmatic Releasing?</span>
+  </div>
+  
+  <div class="lfaq">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+      
+  </div>
+  
+  
+  <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+      $(".lfaq-area span").click(function(){
+               
+       $(".lfaq p").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+  
+  
+  <div class ="mfaq-area">
+ 
+   <i class="fa fa-plus" aria-hidden="true"></i>
+  <span> How To Use Underlined Text To Improve User Experience</span>
+  </div>
+  
+  <div class="mfaq">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+      
+  </div>
+  
+  
+  <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+      $(".mfaq-area span").click(function(){
+               
+       $(".mfaq p").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+  
+  
+  
+  <div class ="nfaq-area">
+ 
+   <i class="fa fa-plus" aria-hidden="true"></i>
+  <span> Understanding CSS Layout And The Block Formatting</span>
+  </div>
+  
+  <div class="nfaq">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+      
+  </div>
+  
+  
+  
+  
+ 
+ <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+     (function($){
+        $(document).ready(function(){
+            
+      $(".nfaq-area span").click(function(){
+               
+       $(".nfaq p").slideToggle();
+               
+           })
+        })
+         
+     })(jQuery)    
+      
+  </script>
+      
+      
+  
+  
+   
+   <hr style="height:5px;border-width:0;color:gray;background-color:#8C001A">
+   
+   <div class ="links">
+      <h4> Quick Links</h4>
+    
+        <div class="all_links">
+    
+          <div class="fast-link">
+            <a href="index.html">Home</a>
+            <a href="faq.html">Faq</a>
+            <a href="topnews.html">Top News</a>
+            <a href="music.html">Featured Videos</a>
+            <a href="#">Support</a>
+          </div>
+          <div class="second-link">
+              <a href="topstories.html">Top Stories</a>
+              <a href="#">Help</a>
+              <a href="fashion.html">Featured Posts</a>
+              <a href="music.html">Editor Choice</a>
+              <a href="contact.html">Contact Us</a>
+          </div>
+    
+        </div>
+    </div>
+      
+    <div class ="links">
+      <h4> Popular Posts</h4>
+    
+      <div class="all_links">
+        <div class="fast-link">
+          <a href="music.html">Celebrity News</a>
+          <a href="food.html">Food</a>
+          <a href="travel.html">Travel</a>
+          <a href="music.html">Movies</a>
+          <a href="education.html">Education</a>
+      </div>
+      <div class="second-link">
+          <a href="history.html">History</a>
+          <a href="music.html">Music News</a>
+          <a href="fashion.html">Fashion</a>
+          <a href="music.html">TV News</a>   
+      </div>
+      </div>
+    
+    </div>
+      
+          
+      <div class ="hlinks">
+      <h4> Our Gallery</h4>
+      </div>   
+      <div class ="galaxy1">
+        <img src="images/f-galler-01.png"alt="img">
+        <img src="images/f-galler-02.png" alt="">
+      </div>
+    
+      <div class ="galaxy2">
+      <img src="images/f-galler-03.png" alt="">
+      <img src="images/f-galler-04.png" alt="">
+      </div>
+  
+   <div class ="futter-area">
+      
+      <p>Copyright © 2023 Newpress. All rights reserved.</p>
+      
+    <div class="futter-icon"> 
+        <a href="">
+   <i class="fa fa-facebook-official" aria-hidden="true" style="color: #4267B2;"></i>
+   <i class="fa fa-instagram"aria-hidden="true" style="color: (#405DE6);"></i>
+   
+   
+   <i class="fa fa-twitter-square" aria-hidden="true" style="color:#00acee;"></i>
+   <i class="fa fa-linkedin-square" aria-hidden="true" style="color:#0072b1;"></i>
+   <i class="fa fa-youtube-play" aria-hidden="true" style="color:#FF0000;"></i>
+   </a>
+   </div> 
+      
+  </div>
+  
+   
+   
+ </body>
+ </html>

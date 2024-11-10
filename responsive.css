@@ -1,0 +1,544 @@
+@media all and (min-width: 100px) and (max-width: 500px){
+
+    *{
+        margin :0;
+        padding :0;
+        
+    }
+    .to-top a{
+    background:linear-gradient(#FF00FF,#FFA500);
+        font-size:20px;
+        
+        width: 40px;
+        height: 40px;
+        color:#fff;
+        display:inline-block;
+        position: fixed;
+        bottom :10px;
+        right :10px;
+        border-radius:50%;
+        display :none;
+    }
+    .to-top a i{
+        margin-top:8px;
+        margin-left:9px;
+    }
+    .header-area{
+        width :100%;
+        height :50px; background:linear-gradient(#FF00FF,#FFA500);
+        position :relatie;
+        padding-top:5px;
+    }
+    .header-area a {
+        font-size:30px;
+        color: #00008B;
+        position : absolute ;
+        top:7px;
+        right :10px;
+        padding :5px, 5px; 
+        cursor:pointer;
+    }
+    .logo{
+        width :45px;
+        height :45px;
+        margin-left:10%;
+        display : block;
+        cursor:pointer;
+        
+    }
+    
+    .second-menu ul{
+        width:90%;
+        max-height :300px;
+        text-aling: center;
+        margin :auto;
+        display : block;
+        list-style:none;
+    background:linear-gradient(#FF00FF,#FFA500);
+    }
+    .second-menu ul li a{
+        text-decoration:none;
+        margin-left:10%;
+        color:#fff;
+        padding :7px;
+        display : block;
+    }
+    .second-menu ul li a{
+        color:#151B54;
+        text:bold;
+    }
+    .second-menu ul li{
+        display :none;
+    }
+    
+    .fore-menu ul{
+        width:50%;
+        max-height :200px;
+        text-aling: center;
+        margin :auto;
+        display : block;
+        list-style:none;
+    background:linear-gradient(#FF00FF,#FFA500);
+    }
+    .fore-menu ul li a{
+        text-decoration:none;
+        margin-left:10%;
+        color:#fff;
+        padding :7px;
+        display : block;
+    }
+    .fore-menu ul li a{
+        color:#151B54;
+        text:bold;
+    }
+    .fore-menu ul{
+        display:none;
+    }
+    .fore-menu ul li a:hover{
+        background: #0000FF;
+        padding :6px;
+        color:#fff;
+    }
+    .btn {
+      background-color: #2196F3;
+      color: white;
+      padding: 5px;
+      font-size: 5px;
+      border: none;
+      outline: none;
+    }
+    .third-menu{
+     
+    }
+    
+    .mySlides fade{
+        margin :0px;
+        padding :0px;
+    }
+    .second-menu ul li a:hover{
+        background: #0000FF;
+        padding :6px;
+        color:#fff;
+    }
+    .text{
+        background: #00008B;
+        background-size: cover;
+        padding :25px;
+        margin-top:0px;
+        
+    }
+    .text i,p{
+        color:#fff;
+        padding :8px;
+    }
+    .text p{
+        font-size:18px;
+    }
+    .text a{
+        font-size:13px;
+    }
+    
+    .text button{
+        background: #FFA500;
+        padding :5px;
+        border: 1px solid #FFA500;
+        box-shadow:2px 2px 2px #800080;
+        border-radius:5px;
+    }
+
+    h2{
+        margin-bottom: 0px;
+    }
+    .my-post{
+        margin: auto;
+        height: 350px;
+        display: block;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .post1{
+        width: 100%;
+        display: block;
+        justify-content: space-between; 
+    }
+   
+    
+    .fast-post{
+        background: url(images/post1.jpg);
+        width: 90%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+    }
+
+
+    .fast-post button{
+        padding:7px;
+        margin :20px 0px 0px 20px;
+        background: #00008B;
+        color:#FFFFFF;
+        border:1px solid #00008B;
+        border-radius:3px;
+    }
+
+    
+    .second-post{
+        background: url(images/post2.jpg);
+        width: 90%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+    }
+ 
+
+    .third-post{
+        background: url(images/post3.jpg);
+        width: 90%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+    }
+
+    /* second-area */
+    /* Top Stories */
+    
+    .post2{
+        width: 100%;
+        display: block;
+        justify-content: space-between; 
+    }
+
+    .fast2-post{
+        background: url(images/post4.jpg);
+        width: 90%;
+        height :400px;
+        margin : auto;
+        background-size: cover;
+    }
+    .fast2-post:hover{
+        transform: scale(1.1);
+    }
+
+    .head-title{
+        width: 80%;
+    }
+
+    .second2-post{
+        background: url(images/post5.jpg);
+        width: 90%;
+        height :400px;
+        margin : auto;
+        background-size: cover;
+    }
+    .second2-post:hover{
+        transform: scale(1.1);
+    }
+
+    
+    .fst-post{
+        background: url(images/stories1.jpg);
+        width: 80%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+
+ 
+        .snd-post{
+            background: url(images/stories2.jpg);
+            width: 80%;
+            height :200px;
+            margin : auto;
+            background-size: cover;
+            
+        }
+        .snd-post:hover{
+            transform: scale(1.1);
+        }
+        .trd-post{
+            background: url(images/stories3.jpg);
+            width: 80%;
+            height :200px;
+            margin : auto;
+            background-size: cover;
+            
+        }
+        .trd-post:hover{
+            transform: scale(1.1);
+        }
+
+
+        .post3{
+            width: 100%;
+            display: block;
+            justify-content: space-between; 
+        }
+
+
+        .tfast-post{
+            background: url(images/tfast.jpg);
+            width: 85%;
+            height :250px;
+            margin : auto;
+            background-size: cover;
+            
+        }
+
+        .tsecond-post{
+            background: url(images/tsecond.jpg);
+            width: 85%;
+            height :250px;
+            margin : auto;
+            background-size: cover;  
+        }
+
+        .tthirde-post{
+            background: url(images/tthirde.jpg);
+            width: 85%;
+            height :250px;
+            margin : auto;
+            background-size: cover;
+            
+        }
+
+        
+    /*  Best Stories*/
+
+    .phade-area h2{
+        margin-bottom: 20px;
+    }
+
+    .pfast-post{
+        background: url(images/pfast.jpg);
+        width: 80%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .pfast-post:hover{
+        transform: scale(1.1);
+    }
+    .psecond-post{
+        background: url(images/stories1.jpg);
+        width: 80%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .psecond-post:hover{
+        transform: scale(1.1);
+    }
+    .pthird-post{
+        background: url(images/stories2.jpg);
+        width: 80%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .pthird-post:hover{
+        transform: scale(1.1);
+    }
+    .pfore-post{
+        background: url(images/stories3.jpg);
+        width: 80%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .pfore-post:hover{
+        transform: scale(1.1)
+    }
+        
+        /* Recent Posts */
+
+    .ha-post{
+        background: url(images/tsecond.jpg);
+        width: 80%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+    }
+
+    .ha-2post{
+        background: url(images/life.jpg);
+        width: 80%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+    }
+    .ha-3post{
+        background: url(images/game.jpg);
+        width: 80%;
+        height :200px;
+        margin : auto;
+        background-size: cover;
+    }
+    .ha-4post{
+        background: url(images/ad-banner.png);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .ha-5post{
+        background: url(images/most-loved.png);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+
+    .galaxy1,
+    .galaxy2{
+        width: 73%;
+        margin: auto;
+        margin-bottom:40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .galaxy1 img,
+    .galaxy2 img{
+        width: 73%;
+        margin: 0px 5px 0px 5px;
+    }
+
+    .contact_new {
+        width: 100%;
+        align-items: center;
+        display: block;
+        justify-content: center;
+    }
+    .contact{
+        width: 80%;
+        height: 210px;
+        margin :auto;
+        background:#DADBDD;
+        margin-bottom:50px;
+        border-radius:5px;
+        position:relative;
+    }
+
+
+
+
+    .life-image{
+        background: url(images/life.jpg);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .life-images{
+        background: url(images/tfast.jpg);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .trave-image{
+        background: url(images/travel2.jpg);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    
+    .trav-image{
+        background: url(images/travel2.jpg);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .fitness1-image{
+        background: url(images/fitness1.jpg);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .fitness1-area a{
+        text-decoration:none;
+        
+    }
+    .fitness-image{
+        background: url(images/fitness.jpg);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }.fitness1-image{
+        background: url(images/fitness1.jpg);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .fitness-image{
+        background: url(images/fitness.jpg);
+        width: 80%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+        
+    }
+    .teams1-image{
+        background: url(images/teams1.jpg);
+        width: 90%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+    }
+    .teams2-image{
+        background: url(images/teams2.jpg);
+        width: 90%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+    }
+    .teams3-image{
+        background: url(images/teams3.jpg);
+        width: 90%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+    }
+    .teams4-image{
+        background: url(images/teams4.jpg);
+        width: 90%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+    }
+    .teams5-image{
+        background: url(images/teams5.jpg);
+        width: 90%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+    }
+    .teams6-image{
+        background: url(images/teams6.jpg);
+        width: 90%;
+        height :250px;
+        margin : auto;
+        background-size: cover;
+    }
+
+}
