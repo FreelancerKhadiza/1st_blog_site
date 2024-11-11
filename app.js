@@ -1,4 +1,31 @@
+<script id="script" type="text/Javascript" >
 
+   (function($){
+      $(document).ready(function(){
+          
+      $(".fast-menu a").click(function(){
+             
+     $(".second-menu ul li").slideToggle();
+             
+         })
+      })
+       
+   })(jQuery)    
+    
+
+
+   (function($){
+        $(document).ready(function(){
+          
+            $(".third-menu a").click(function(){
+                
+            $(".fore-menu ul").slideToggle();
+             
+        })
+    })
+       
+   })(jQuery)    
+    
 
 
 
@@ -23,3 +50,4 @@
        
    })(jQuery);  
     
+</script>
