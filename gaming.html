@@ -9,108 +9,52 @@
     
 </head>
 <body>
-     <div class ="to-top">
-         <a href="#"><i class="fa fa-chevron-up" ></i></a>
-         
-     </div> 
-         
-         <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript">
-     (function($){ 
-        
-        $('.to-top a').click(function(){
-         $('html, body').animate({'scrollTop':0},1000);
-         
-      return false;  
-          
-        })
-        
-    $(window).scroll(function(){
-        if($(window).scrollTop() > 600){
-            $('.to-top a').fadeIn(1000);
-        }else{
-            $('.to-top a').fadeOut(1000);
-        };
-    
-    });   
-        
-         
-     })(jQuery)    
-      
-  </script>
+
+  <div class="windows">
+    <div class="to-top">
+      <a href="#"><i class="fa fa-chevron-up"></i></a>
   
-         
+    </div>
+  
     <header class="header-area">
-        <img src="images/logo.png" alt="logo" class="logo">
-        
-     <nav class="fast-menu">   
+      <img src="images/logos.png" alt="logo" class="logo">
+  
+      <nav class="fast-menu">
         <ul>
-            <li><a href="#"><i class="fa fa-bars"></i></a>
-            </li>   
+          <li><a href="#"><i class="fa fa-bars"></i></a>
+          </li>
         </ul>
-     </nav> 
-   </header>
-   
-    <nav class="second-menu">  
-        <ul>
-           <li><a href="index.html">HOME</a></li>
-           <li><a href="lifestyle.html">LIFE STYLE</a></li>
-           <li><a href="travel.html">TRAVEL</a></li>
-                    
-   <li class="third-menu"><a href="#">PAGES <i class="fa fa-caret-down"></i></a>
-         
-      <div class ="fore-menu">
-      
-   <ul>
-     <li><a href="gallery.html">OUR GALLERY</a></li>
-     
-     <li><a href="teams.html">OUR TEAMS</a></li>
-     <li><a href="faq.html">OUR FAQ</a></li>
-   </ul>
-      
- </div>    
-           
-  </li>
-           <li><a href="fitness.html">FITNESS</a></li>
-           <li><a href="contact.html">CONTACT US</a></li>
-        </ul>  
-    </nav>    
+      </nav>
+    </header>
   
   
+    <nav class="second-menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="lifestyle.html">LIFE STYLE</a></li>
+        <li><a href="travel.html">TRAVEL</a></li>
   
   
-    <script id="script type=""text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript">
-     (function($){
-        $(document).ready(function(){
-            
-        $(".third-menu a").click(function(){
-               
-       $(".fore-menu ul").slideToggle();
-               
-           })
-        })
-         
-     })(jQuery)    
-      
-  </script>
-      
-        
-      
-   <script type="text/Javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript">
-     (function($){
-        $(document).ready(function(){
-            
-        $(".fast-menu a").click(function(){
-               
-        $(".second-menu ul li").slideToggle();
-               
-           })
-        })
-         
-     })(jQuery)    
-   </script>
+        <li class="third-menu"><a href="#">PAGES <i class="fa fa-caret-down"></i></a>
+  
+          <div class="fore-menu">
+  
+            <ul>
+              <li><a href="gallery.html">OUR GALLERY</a></li>
+  
+              <li><a href="teams.html">OUR TEAMS</a></li>
+              <li><a href="faq.html">OUR FAQ</a></li>
+            </ul>
+  
+          </div>
+  
+        </li>
+        <li><a href="fitness.html">FITNESS</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </div>
+  
    <div class ="slide-area">
        
        <h2>Category: GAMING</h2>

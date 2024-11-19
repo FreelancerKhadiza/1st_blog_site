@@ -3,6 +3,10 @@
     padding :0;
     
 }
+.windows{
+    position: fixed;
+    width: 100%;
+}
 .to-top a{
 background:linear-gradient(#FF00FF,#FFA500);
     font-size:20px;
@@ -862,6 +866,7 @@ h5{
     background-size: cover;
     height :230px;
     margin-bottom:70px;
+    padding-top: 50px;
 }
 .slide-area h2{
     color:#fff;
@@ -1978,4 +1983,7 @@ h5{
     color: black;
     display : none;
 }
+
+
+
 
